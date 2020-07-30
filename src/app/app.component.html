@@ -4,7 +4,7 @@
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-  
+
   <div class="spacer"></div>
   <span >Welcome</span>
   <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://twitter.com/angular" title="Twitter">
@@ -54,7 +54,7 @@
 <div class="accordion-container">
   <mat-accordion>
     <mat-expansion-panel hideToggle>
-      <mat-expansion-panel-header #panel1 (click)="panel1._toggle()" [collapsedHeight]="'70px'" [expandedHeight]="'70px'">
+      <mat-expansion-panel-header  #panel1 (click)="panel1._toggle()" [collapsedHeight]="'70px'" [expandedHeight]="'70px'">
 
         <mat-panel-title>
           <div class="chip">
@@ -66,17 +66,27 @@
 
         <mat-panel-description>
           <mat-form-field appearance="legacy">
-            <mat-label>Budget</mat-label>
+            <mat-label>Budget1</mat-label>
             <span matPrefix>£ &nbsp;</span>
             <input matInput placeholder="Placeholder" >
           </mat-form-field>
 
           <mat-form-field appearance="legacy">
-            <mat-label>Budget</mat-label>
+            <mat-label>Budget2</mat-label>
             <span matPrefix>£ &nbsp;</span>
             <input matInput placeholder="Placeholder">
           </mat-form-field>
-          
+          <mat-form-field appearance="legacy">
+            <mat-label>Budget3</mat-label>
+            <span matPrefix>£ &nbsp;</span>
+            <input matInput placeholder="Placeholder">
+          </mat-form-field>
+          <mat-form-field appearance="legacy">
+            <mat-label>Budget4</mat-label>
+            <span matPrefix>£ &nbsp;</span>
+            <input matInput placeholder="Placeholder">
+          </mat-form-field>
+
         </mat-panel-description>
         <span class="toggle-icon"><i class="material-icons app-toolbar-menu" (click)="panel1._toggle()">swap_vertical_circle
         </i></span>
@@ -105,11 +115,21 @@
                 <span matPrefix>£ &nbsp;</span>
                 <input matInput placeholder="Placeholder">
               </mat-form-field>
+              <mat-form-field appearance="legacy">
+                <mat-label>Budget</mat-label>
+                <span matPrefix>£ &nbsp;</span>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+              <mat-form-field appearance="legacy">
+                <mat-label>Budget</mat-label>
+                <span matPrefix>£ &nbsp;</span>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
             </mat-panel-description>
             <span class="toggle-icon"><i class="material-icons app-toolbar-menu" (click)="panel2._toggle()">swap_vertical_circle
             </i></span>
           </mat-expansion-panel-header>
- 
+
           <mat-card>
             <section>
               <div class="chip chip-inline">
@@ -117,6 +137,7 @@
                   <mat-chip>Grand Child 1</mat-chip>
                 </mat-chip-list>
               </div>
+              <div class="custom-class">
               <div class="form-field inline">
                 <mat-form-field appearance="legacy">
                   <span matPrefix>£ &nbsp;</span>
@@ -132,16 +153,32 @@
                   <input matInput placeholder="Placeholder">
                 </mat-form-field>
               </div>
+              <div class="form-field inline">
+                <mat-form-field appearance="legacy">
+                  <span matPrefix>£ &nbsp;</span>
+                  <mat-label>Budget</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+              <div class="form-field inline">
+                <mat-form-field appearance="legacy">
+                  <span matPrefix>£ &nbsp;</span>
+                  <mat-label>Budget</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+            </div>
             </section>
-          
 
-          
+
+
             <section>
               <div class="chip chip-inline">
                 <mat-chip-list>
                   <mat-chip>Grand Child 2</mat-chip>
                 </mat-chip-list>
               </div>
+              <div class="custom-class">
               <div class="form-field inline">
                 <mat-form-field appearance="legacy">
                   <span matPrefix>£ &nbsp;</span>
@@ -157,12 +194,27 @@
                   <input matInput placeholder="Placeholder">
                 </mat-form-field>
               </div>
+              <div class="form-field inline">
+                <mat-form-field appearance="legacy">
+                  <span matPrefix>£ &nbsp;</span>
+                  <mat-label>Budget</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+              <div class="form-field inline">
+                <mat-form-field appearance="legacy">
+                  <span matPrefix>£ &nbsp;</span>
+                  <mat-label>Budget</mat-label>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+            </div>
             </section>
           </mat-card>
 
         </mat-expansion-panel>
 
-        
+
       </mat-accordion>
     </mat-expansion-panel>
   </mat-accordion>
