@@ -51,7 +51,7 @@
 
 </div>
 
-<div class="accordion-container">
+<!-- <div class="accordion-container">
   <mat-accordion>
     <mat-expansion-panel hideToggle>
       <mat-expansion-panel-header  #panel1 (click)="panel1._toggle()" [collapsedHeight]="'70px'" [expandedHeight]="'70px'">
@@ -219,7 +219,7 @@
     </mat-expansion-panel>
   </mat-accordion>
 
-</div>
+</div> -->
 
 <!-- <mat-expansion-panel hideToggle>
   <mat-expansion-panel-header #panel3 (click)="panel3._toggle()" [collapsedHeight]="'70px'" [expandedHeight]="'70px'">
@@ -296,3 +296,250 @@
     </section>
 
 </mat-expansion-panel> -->
+
+<div class="mat-accordion-table">
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <div class="accordion-heading-container">
+          <mat-panel-title>
+            Level 1
+          </mat-panel-title>
+        </div>
+        <div class="accordion-description-container1">
+          <mat-panel-description>
+           <div class="input-field-container">
+             <div class="mat-input-selector row">
+               <div class="col-2">
+                <mat-form-field  appearance="legacy">
+                  <mat-label>Budget</mat-label>
+                  <span matPrefix>£ &nbsp;</span>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+              <div class="col-2">
+                <mat-form-field  appearance="legacy">
+                  <mat-label>Budget</mat-label>
+                  <span matPrefix>£ &nbsp;</span>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+              <div class="col-2">
+                <mat-form-field  appearance="legacy">
+                  <mat-label>Budget</mat-label>
+                  <span matPrefix>£ &nbsp;</span>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+              <div class="col-2">
+                <mat-form-field  appearance="legacy">
+                  <mat-label>Budget</mat-label>
+                  <span matPrefix>£ &nbsp;</span>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+              <div class="col-2">
+                <mat-form-field  appearance="legacy">
+                  <mat-label>Budget</mat-label>
+                  <span matPrefix>£ &nbsp;</span>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+              <div class="col-2">
+                <mat-form-field  appearance="legacy">
+                  <mat-label>Budget</mat-label>
+                  <span matPrefix>£ &nbsp;</span>
+                  <input matInput placeholder="Placeholder">
+                </mat-form-field>
+              </div>
+             </div>
+           </div>
+          </mat-panel-description>
+        </div>
+      </mat-expansion-panel-header>
+      <div class="child-accordion-container">
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true"
+                               (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+              <div class="accordion-heading-container">
+                <mat-panel-title>
+                  Level 2
+                </mat-panel-title>
+              </div>
+              <div class="accordion-description-container2">
+                <mat-panel-description>
+                  <div class="input-field-container">
+                    <div class="mat-input-selector row">
+                      <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                    </div>
+                  </div>
+                </mat-panel-description>
+              </div>
+            </mat-expansion-panel-header>
+                  <div class="child-accordion-container2">
+                    <mat-accordion>
+                      <mat-expansion-panel (opened)="panelOpenState = true"
+                                          (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+              <div class="accordion-heading-container">
+                <mat-panel-title>
+                  Level 3
+                </mat-panel-title>
+              </div>
+              <div class="accordion-description-container3">
+                <mat-panel-description>
+                  <div class="input-field-container">
+                    <div class="mat-input-selector row">
+                      <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                     <div class="col-2">
+                       <mat-form-field  appearance="legacy">
+                         <mat-label>Budget</mat-label>
+                         <span matPrefix>£ &nbsp;</span>
+                         <input matInput placeholder="Placeholder">
+                       </mat-form-field>
+                     </div>
+                    </div>
+                  </div>
+                </mat-panel-description>
+              </div>
+            </mat-expansion-panel-header>
+            <div class="level4-accordion-cotainer">
+              <div class="level4-left-continer">
+                <div class="level4=header">Level  4</div>
+              </div>
+              <div class="level4-right-continer">
+                <div class="input-field-container">
+                  <div class="mat-input-selector row">
+                    <div class="col-2">
+                     <mat-form-field  appearance="legacy">
+                       <mat-label>Budget</mat-label>
+                       <span matPrefix>£ &nbsp;</span>
+                       <input matInput placeholder="Placeholder">
+                     </mat-form-field>
+                   </div>
+                   <div class="col-2">
+                     <mat-form-field  appearance="legacy">
+                       <mat-label>Budget</mat-label>
+                       <span matPrefix>£ &nbsp;</span>
+                       <input matInput placeholder="Placeholder">
+                     </mat-form-field>
+                   </div>
+                   <div class="col-2">
+                     <mat-form-field  appearance="legacy">
+                       <mat-label>Budget</mat-label>
+                       <span matPrefix>£ &nbsp;</span>
+                       <input matInput placeholder="Placeholder">
+                     </mat-form-field>
+                   </div>
+                   <div class="col-2">
+                     <mat-form-field  appearance="legacy">
+                       <mat-label>Budget</mat-label>
+                       <span matPrefix>£ &nbsp;</span>
+                       <input matInput placeholder="Placeholder">
+                     </mat-form-field>
+                   </div>
+                   <div class="col-2">
+                     <mat-form-field  appearance="legacy">
+                       <mat-label>Budget</mat-label>
+                       <span matPrefix>£ &nbsp;</span>
+                       <input matInput placeholder="Placeholder">
+                     </mat-form-field>
+                   </div>
+                   <div class="col-2">
+                     <mat-form-field  appearance="legacy">
+                       <mat-label>Budget</mat-label>
+                       <span matPrefix>£ &nbsp;</span>
+                       <input matInput placeholder="Placeholder">
+                     </mat-form-field>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                </mat-expansion-panel>
+              </mat-accordion>
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

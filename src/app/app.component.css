@@ -287,10 +287,6 @@ svg#clouds {
   }
 }
 
-.mat-form-field + .mat-form-field {
-  margin-left: 8px;
-}
-
 .example-form {
   min-width: 150px;
   max-width: 500px;
@@ -330,7 +326,7 @@ section .chip-inline {
   display: inline-block;
   width: 23%;
 }
-mat-expansion-panel-header{
+/* mat-expansion-panel-header{
   padding: 5px !important;
 }
 .chip.chip-inline{
@@ -344,4 +340,43 @@ mat-expansion-panel-header{
   display: inline-block;
     margin-left: 70px;
     width: 83%;
+} */
+
+.accordion-heading-container{
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+mat-form-field{
+  padding-top: 17px;
+  width: 100%;
+}
+mat-panel-title{
+  padding-top: 17px;
+}
+.accordion-description-container1{
+  width: 90%;
+}
+.accordion-description-container2{
+  width: 94%;
+}
+.accordion-description-container3{
+  width: 97%;
+}
+.level4-accordion-cotainer{
+  display: flex;
+}
+.level4-left-continer{
+  display: flex;
+  align-items: center;
+  width: 10%;
+  padding-top: 17px;
+  padding-left: 24px;
+}
+.level4-right-continer{
+  padding-left: 5px;
+  width: 87%;
+}
+.input-field-container{
+  width: 100%;
 }
